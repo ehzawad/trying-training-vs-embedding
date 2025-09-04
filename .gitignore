@@ -36,12 +36,6 @@ wheels/
 # Logs
 *.log
 training.log
-
-# Generated reports and visualizations
-*.png
-*.jpg
-*.pdf
-*_report.md
 *_evaluation_report.md
 
 # macOS
