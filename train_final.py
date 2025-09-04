@@ -201,9 +201,9 @@ def train_final_model():
     
     # 7. Create evaluator
     evaluator = EmbeddingSimilarityEvaluator(
-        sentences1=eval_dataset['sentence1'],
-        sentences2=eval_dataset['sentence2'],
-        scores=eval_dataset['score'],
+        sentences1=list(eval_dataset['sentence1']),
+        sentences2=list(eval_dataset['sentence2']),
+        scores=list(eval_dataset['score']),
         name='final-eval'
     )
     
